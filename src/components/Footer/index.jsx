@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="footer-section">
       <div id="footer-content">
-        <img src="/src/assets/images/logo-black.svg" alt="Phurten logo black" />
+        <img src="/logo-black.svg" alt="Phurten logo black" />
         <h1>let's code together </h1>
         <nav id="footer-nav">
           <ul>

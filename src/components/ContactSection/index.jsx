@@ -12,7 +12,7 @@ export default function ContactSection() {
         <p>Whether you have an idea, a project, or just want to say hello...</p>
       </div>
       <div id="contact-links">
-        <img src="/src/assets/images/contact-image.png" alt="Contact Illustration" />
+        <img src="/contact-image.png" alt="Contact Illustration" />
         <div className="contact-link-list">
           <a
             href="https://www.linkedin.com/in/phurtenjangsherpa/"

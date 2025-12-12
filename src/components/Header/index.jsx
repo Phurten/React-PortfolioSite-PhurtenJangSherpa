@@ -7,7 +7,7 @@ export default function Header({ menuOpen, setMenuOpen }) {
     <header className={menuOpen ? "menu-open" : ""}>
       <div className="header-inner">
         <a href="#">
-          <img src="/src/assets/images/logo-whitesvg.svg" alt="Phurten logo white" />
+          <img src="/logo-whitesvg.svg" alt="Phurten logo white" />
         </a>
         <nav id="main-menu" className="desktop-menu">
           <ul className="desktop-menu-list">
