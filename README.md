@@ -1,85 +1,35 @@
-# React Portfolio Site
+# Portfolio React Frontend
 
-This project is a modern portfolio website built with React and Vite. It fetches data from a custom Express/MongoDB API (created in Assignment 1) and displays your projects and skills dynamically. The site is fully responsive and professionally styled.
+This is the frontend for my portfolio website, built with React and Vite. It consumes the API created in Assignment 1 (Node.js/Express/MongoDB) to dynamically display projects and skills.
+
+## Deployment
+
+**Live Portfolio Site:** https://react-portfoliosite-phurtenjangsherpa-1.onrender.com
+**Live Admin Site:** https://jassignment1-phurtenjangsherpa.onrender.com
+- Login credentials:
+  username: admin
+  password: phurten
 
 ## Features
 
-- Built with React and Vite for fast development and HMR
-- Fetches data from your deployed Express API (projects and skills collections)
-- Modern, clean, and responsive design
-- Projects section with:
-  - Project name
-  - Screenshot
-  - Technologies (badges)
-  - Status
-  - Description
-  - Visit Site link
-- Skills section with:
-  - Skill name
-  - Category
-  - Proficiency (visual bar)
-  - Icon (if available)
-- About, Contact, and Footer sections
-- Modular code structure and best practices
+- **Projects Section**: View all portfolio projects with images, technologies, status, description
+- **Skills Section**: View all skills, grouped by category, with proficiency bars and icons
+- **Responsive Design**: Fully responsive and modern UI
+- **API Integration**: Fetches all data from the deployed Express API
 
-## Getting Started
+## Technology Stack
 
-### Prerequisites
-- Node.js (v18 or higher recommended)
-- Your Assignment 1 API deployed and accessible (CORS enabled)
+- **Frontend**: React, Vite
+- **Styling**: Custom CSS, Phosphor Icons
+- **API**: Node.js, Express, MongoDB Atlas
 
-### Installation
-1. Clone this repository:
-   ```sh
-   git clone <your-repo-url>
-   cd React-PortfolioSite-PhurtenJangSherpa
-   ```
-2. Install dependencies:
-   ```sh
-   npm install
-   ```
-3. Start the development server:
-   ```sh
-   npm run dev
-   ```
-4. Open [http://localhost:5173](http://localhost:5173) in your browser.
+## API Endpoints Used
 
-### API Endpoints Used
-- `GET /api/projects` — fetches all projects
-- `GET /api/skills` — fetches all skills
+- `GET /api/projects` — Returns all projects as JSON
+- `GET /api/skills` — Returns all skills as JSON
 
-> Make sure your API is running and accessible from your React app (CORS enabled).
+## Author
 
-## Deployment
-You can deploy this site easily with [Vercel](https://vercel.com/) or [Netlify](https://www.netlify.com/). Just connect your GitHub repo and follow the instructions.
+**Phurten Jang Sherpa**
 
-**Deployed Site:**
-- [YOUR_DEPLOYED_SITE_URL_HERE](#) <!-- Replace with your actual deployed URL -->
-
-## Folder Structure
-```
-src/
-  api.js            # API utility functions
-  components/
-    AboutSection/
-    ContactSection/
-    Footer/
-    Header/
-    HeroSection/
-    LanguagesSection/
-    ProjectsSection/
-    SkillsSection/
-  assets/           # Images, fonts, etc.
-  styles/           # Global styles
-```
-
-## Customization
-- Update your name, role, and contact info in the appropriate components.
-- Add or update projects and skills via your API/admin site.
-
-## License
-This project is for educational purposes (HTTP5222 Assignment 2).
-
----
-
-**Created by [Your Name]**
+Humber College - HTTP5222 Full Stack Development
